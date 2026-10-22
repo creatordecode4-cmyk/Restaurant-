@@ -1,0 +1,18 @@
+{
+  "name": "motion-video",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "preview": "remotion render Main out/preview.mp4 --frames=0-149",
+    "render": "remotion render Main out/final.mp4 --codec=h264 --audio-codec=aac"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.537",
+    "@remotion/fonts": "^4.0.537",
+    "@types/react": "^19.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.537",
+    "typescript": "^7.0.2"
+  }
+}
